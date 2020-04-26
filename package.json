@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "React bot for webpage",
+  "main": "index.js",
+  "engines": {
+    "node": "10.19.0",
+    "npm": "6.13.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon index.js",
+    "frontend": "npm run front --prefix client",
+    "dev": "concurently \"npm run backend\"\"npm run frontend\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Michał Kozak",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3"
+  }
+}
