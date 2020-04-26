@@ -38,7 +38,7 @@ ChatBot will present three products. Then chatbot will ask another question.
 -> "No" <- ChatBot thank you
 -> "Info" <- ChatBot will provide contact information
 
-Notes: minimum resolution 360px
+Notes: minimum resolution 360px.
 
 Stack: HTML, CSS, JavaScript, React, Node.js, MongoDB, DialogFlow, Materialize CSS, Heroku
 
