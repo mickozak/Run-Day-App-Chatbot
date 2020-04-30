@@ -42,4 +42,6 @@ Notes: minimum resolution 360px.
 
 Stack: HTML, CSS, JavaScript, React, Node.js, MongoDB, DialogFlow, Materialize CSS, Heroku
 
-Link: https://enigmatic-anchorage-72672.herokuapp.com/
+Link: https://enigmatic-anchorage-72672.herokuapp.com
+
+*The application is available only via the link. The application has demo data. The GIT repository has a preview function, do not install extensions because the application has deliberately deleted files containing sensitive data.
